@@ -20,8 +20,8 @@ export function AddTodoDialog({
   isLoading,
 }) {
   const [isOpen, setIsOpen] = useState(false);
-  const TITLE_LIMIT = 25;
-  const DESCRIPTION_LIMIT = 100;
+  const TITLE_LIMIT = 50;
+  const DESCRIPTION_LIMIT = 250;
 
   const handleTitleChange = (e) => {
     const newTitle = e.target.value;
